@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6 CSS</title>
+    <style>
+        .hinhAnh{
+            display: grid; /*để chia lưới*/
+            grid-template-columns: 200px 200px 200px; /*chia làm 3 phần, mỗi phần 200px*/
+            /* grid-template-columns: 50% 20% 30%; */
+        }
+        .hinh1{
+            height: 500px;
+            margin: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hinhAnh">
+        <div class="hinh1">
+            <img src="../img/mozilla.jpg" alt="">
+        </div>
+        <div class="hinh1">
+            <img src="../img/mozilla.jpg" alt="">
+        </div>
+        <div class="hinh1">
+            <img src="../img/mozilla.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
